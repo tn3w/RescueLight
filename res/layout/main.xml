@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screen"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:keepScreenOn="true">
+
+    <TextView android:id="@+id/label"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="120px"
+        android:paddingHorizontal="48px" android:paddingVertical="24px"
+        android:background="#B3000000"
+        android:textColor="@android:color/white" android:textSize="18sp"
+        android:alpha="0"/>
+</FrameLayout>
