@@ -1,8 +1,15 @@
 <div align="center">
 
-<img src="preview.gif" width="670" alt="Max white, SOS, strobe and battery modes side by side">
+<img src="https://github.com/tn3w/RescueLight/releases/download/img/preview.gif" width="670" alt="Max white, SOS, strobe and battery modes side by side">
 
-# <img src="icon.png" width="36" alt=""> Rescue Light
+<br>
+
+<h1>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://github.com/tn3w/RescueLight/releases/download/img/title-dark.png">
+<img src="https://github.com/tn3w/RescueLight/releases/download/img/title-light.png" width="346" alt="Rescue Light">
+</picture>
+</h1>
 
 **Turns a phone screen into an emergency signal light.**
 Full brightness, edge to edge, 17 KB, no permissions.
