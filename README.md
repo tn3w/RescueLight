@@ -15,7 +15,7 @@
 Full brightness, edge to edge, 17 KB, no permissions.
 
 <a href="https://github.com/tn3w/RescueLight/releases/download/v1.0/RescueLight-1.0.apk">
-<img src="https://img.shields.io/badge/Download-APK%20%C2%B7%2017%20KB-C62828?style=for-the-badge&logo=android&logoColor=white" alt="Download RescueLight 1.0 APK">
+<img src="https://img.shields.io/badge/Download-APK%2017%20KB-C62828?style=for-the-badge&logo=android&logoColor=white" alt="Download RescueLight 1.0 APK">
 </a>
 
 </div>
