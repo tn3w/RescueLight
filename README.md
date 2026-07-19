@@ -2,7 +2,7 @@
 
 <img src="preview.gif" width="670" alt="Max white, SOS, strobe and battery modes side by side">
 
-# Rescue Light
+# <img src="icon.png" width="36" alt=""> Rescue Light
 
 **Turns a phone screen into an emergency signal light.**
 Full brightness, edge to edge, 17 KB, no permissions.
