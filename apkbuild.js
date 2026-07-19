@@ -130,6 +130,7 @@ function readManifest(manifest, platformApi) {
   if (!packageName) fail('No package="..." in ' + manifest);
   return {
     packageName,
+    versionName: value("versionName") || "1.0",
     minSdk: Number(value("minSdkVersion") || 24),
     targetSdk: Number(value("targetSdkVersion") || platformApi),
   };
@@ -335,7 +336,7 @@ function main() {
 
   const key = resolveSigningKey(tools.keytool, levels.packageName);
   console.log(key.release ? "signing with release key..." : "signing with debug key...");
-  const apk = path.join(BUILD, "app.apk");
+  const apk = path.join(BUILD, `${path.basename(PROJECT)}-${levels.versionName}.apk`);
   const signArgs = [
     "sign", "--ks", key.keystore, "--ks-pass", key.password,
     "--ks-key-alias", key.alias, "--v4-signing-enabled", "false",
