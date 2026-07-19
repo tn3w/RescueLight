@@ -33,8 +33,8 @@ even on silent. Sound and light pulse together.
 ## Build
 
 ```
-node apkbuild.js              # → build/app.apk
-adb install -r build/app.apk
+node apkbuild.js                        # → build/RescueLight-1.0.apk
+adb install -r build/RescueLight-1.0.apk
 ```
 
 `apkbuild.js` compiles the manifest, `src/` and `res/` into a signed APK with
