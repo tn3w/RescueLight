@@ -34,3 +34,10 @@ adb install -r build/app.apk
 the Android SDK tools. Requires JDK and SDK build-tools.
 
 Release key at `~/.apkbuild/keys/<package>.jks`, with its password in a sibling `.pass` file.
+
+## Disclaimer
+
+Not a certified safety device, carry proper equipment. Signal distress only in
+a genuine emergency; false alarms are a criminal offence. Flashing modes may
+affect photosensitive people; the tone is loud. No warranty, use at your own
+risk, see [LICENSE](LICENSE).
