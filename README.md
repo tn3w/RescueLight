@@ -15,10 +15,10 @@ Full brightness, edge to edge, 17 KB, no permissions.
 
 | Mode | Light | Why |
 |------|-------|-----|
-| **Max white** | steady white | the most photons a screen can emit — seen farthest at night |
+| **Max white** | steady white | the most photons a screen can emit, seen farthest at night |
 | **SOS** | Morse `···———···` | reads as deliberate distress, not ambient light |
 | **Strobe** | flash, ~1 Hz | the distress cadence; flicker catches the eye before it focuses |
-| **Battery** | green, 9% duty | green is cheap on OLED and near the night-adapted eye's peak → ~3× runtime |
+| **Battery** | green, 9% duty | green is cheap on OLED and near the night-adapted eye's peak, ~3× runtime |
 
 The tone is synthesized in code (no audio files) on the alarm stream, so it sounds
 even on silent. Sound and light pulse together.
